@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Formulario de Registro</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--===============================================================================================-->
+      <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+      <!--===============================================================================================-->
+      <link rel="stylesheet" type="text/css" href="css/util.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <!--===============================================================================================-->
+   </head>
+   <body>
+      <div class="container-contact100">
+      <div class="wrap-contact100">
+  
+         <span class="contact100-form-title">
+         Formulario de registro
+         </span>
+         <div class="wrap-input100 validate-input bg1" data-validate="Por favor escriba su nombre">
+            <span class="label-input100" >Nombre *</span>
+            <input class="input100" type="text" id="name" name="name" placeholder="Digite su nombre">
+         </div>
+         <div class="wrap-input100 validate-input bg1" data-validate="Por favor escriba su apellido">
+            <span class="label-input100">Apellido *</span>
+            <input class="input100" type="text" id="lastname"  name="lastname" placeholder="Digite su apellido">
+         </div>
+         <div class="wrap-input100 validate-input bg1" data-validate="Por favor escriba usuario">
+            <span class="label-input100">Usuario *</span>
+            <input class="input100" type="text" id="user" name="user" placeholder="Especifique un usuario, solo minusculas">
+         </div>
+         <div class="wrap-input100 validate-input bg1" data-validate="(Mayuscula,Numero,Letras, Minimo 8 caracteres)">
+            <span class="label-input100">Contraseña </span>
+            <input class="input100" type="password" id="password" name="password" placeholder="(Mayuscula,Numero,Letras, Minimo 8 caracteres)">
+         </div>
+         <div class="wrap-input100 validate-input bg1 rs1-wrap-input100"
+            data-validate="Por favor escriba su correo (e@a.x)">
+            <span class="label-input100">Correo *</span>
+            <input class="input100" type="text" id="email" name="email" placeholder="Digite su correo ">
+         </div>
+        
+         <!--===============================================================================================-->
+         <div style="text-align: center;">
+            <h2>Encuesta de conocimiento</h2>
+         </div>
+         <br>
+         <div class="wrap-input100 input100-select bg1">
+         <span class="label-input100">Conoce herramientas para manejo de la informacion</span>
+         <div>
+            <div class="dropDownSelect2"></div>
+         </div>
+         <div class="wrap-contact100-form-radio">
+            <span class="label-input100">Seleccione una respuesta</span>
+            <div class="contact100-form-radio m-t-15">
+               <input class="input-radio100" id="radio1" type="checkbox" name="knowinformaticstool" value="3" >
+               <label class="label-radio100" for="radio1">
+               Alto
+               </label>
+            </div>
+            <div class="contact100-form-radio">
+               <input class="input-radio100" id="radio2" type="checkbox" name="knowinformaticstool" value="2">
+               <label class="label-radio100" for="radio2">
+               Medio
+               </label>
+            </div>
+            <div class="contact100-form-radio">
+               <input class="input-radio100" id="radio3" type="checkbox" name="knowinformaticstool" value="1">
+               <label class="label-radio100" for="radio3">
+               Bajo
+               </label>
+            </div>
+            <span class="label-input100">De acuerdo a la pregunta cual cree que es su nivel de conocimiento
+               *</span>
+               <div>
+                  <select class="js-select2" name="service">
+                     <option>Conocimientos en integracion de la informacion</option>
+                  </select>
+                  <div class="dropDownSelect2"></div>
+               </div>
+            </div>
+            <div class="wrap-contact100-form-radio">
+            <span class="label-input100">Seleccione una respuesta</span>
+            <div class="contact100-form-radio m-t-15">
+               <input class="input-radio100" id="radio19" type="checkbox" name="knowintegrationifortaion" value="3" >
+               <label class="label-radio100" for="radio19">
+               Alto
+               </label>
+            </div>
+            <div class="contact100-form-radio">
+               <input class="input-radio100" id="radio20" type="checkbox" name="knowintegrationifortaion" value="2">
+               <label class="label-radio100" for="radio20">
+               Medio
+               </label>
+            </div>
+            <div class="contact100-form-radio">
+               <input class="input-radio100" id="radio21" type="checkbox" name="knowintegrationifortaion" value="1">
+               <label class="label-radio100" for="radio21">
+               Bajo
+               </label>
+            </div>
+            <!--===============================================================================================-->
+            <span class="label-input100">De acuerdo a la pregunta cual cree que es su nivel de conocimiento
+            *</span>
+            <div>
+               <select class="js-select2" name="service">
+                  <option>Experiencia en sistemas de informacion</option>
+               </select>
+               <div class="dropDownSelect2"></div>
+            </div>
+         </div>
+         <div class="wrap-contact100-form-radio">
+         <span class="label-input100">Seleccione una respuesta</span>
+         <div class="contact100-form-radio m-t-15">
+            <input class="input-radio100" id="radio4" type="checkbox" name="experienceyear" value="3" >
+            <label class="label-radio100" for="radio4">
+            Alto
+            </label>
+         </div>
+         <div class="contact100-form-radio">
+            <input class="input-radio100" id="radio5" type="checkbox" name="experienceyear" value="2">
+            <label class="label-radio100" for="radio5">
+            Medio
+            </label>
+         </div>
+         <div class="contact100-form-radio">
+            <input class="input-radio100" id="radio6" type="checkbox" name="experienceyear" value="1">
+            <label class="label-radio100" for="radio6">
+            Bajo
+            </label>
+         </div>
+         <!--===============================================================================================-->
+         <span class="label-input100">De acuerdo a la pregunta cual cree que es su nivel de
+         conocimiento *</span>
+         <div>
+            <select class="js-select2" name="service">
+               <option>Conocimiento en bases de datos</option>
+            </select>
+            <div class="dropDownSelect2"></div>
+         </div>
+         
+         <span class="label-input100">Seleccione una respuesta</span>
+         <div class="contact100-form-radio m-t-15">
+            <input class="input-radio100" id="radio7" type="checkbox" name="knowdb" value="3">
+            <label class="label-radio100" for="radio7">
+            Alto
+            </label>
+         </div>
+         <div class="contact100-form-radio">
+            <input class="input-radio100" id="radio8" type="checkbox" name="knowdb" value="2">
+            <label class="label-radio100" for="radio8">
+            Medio
+            </label>
+         </div>
+         <div class="contact100-form-radio">
+            <input class="input-radio100" id="radio9" type="checkbox" name="knowdb" value="1">
+            <label class="label-radio100" for="radio9">
+            Bajo
+            </label>
+         </div>
+         <!--===============================================================================================-->
+         <span class="label-input100">De acuerdo a la pregunta cual cree que es su nivel de
+         conocimiento *</span>
+         <div>
+            <select class="js-select2" name="service">
+               <option>Conocimiento en informacion de salud publica</option>
+            </select>
+            <div class="dropDownSelect2"></div>
+         </div>
+         
+         <span class="label-input100">Seleccione una respuesta</span>
+         <div class="contact100-form-radio m-t-15">
+            <input class="input-radio100" id="radio10" type="checkbox" name="knowpublichealth" value="3">
+            <label class="label-radio100" for="radio10">
+            Alto
+            </label>
+         </div>
+         <div class="contact100-form-radio">
+            <input class="input-radio100" id="radio11" type="checkbox" name="knowpublichealth" value="2">
+            <label class="label-radio100" for="radio11">
+            Medio
+            </label>
+         </div>
+         <div class="contact100-form-radio">
+            <input class="input-radio100" id="radio12" type="checkbox" name="knowpublichealth" value="1">
+            <label class="label-radio100" for="radio12">
+            Bajo
+            </label>
+         </div>
+         <!--===============================================================================================-->
+         <span class="label-input100">De acuerdo a la pregunta cual cree que es su nivel de
+         conocimiento *</span>
+         <div>
+            <select class="js-select2" name="service">
+               <option>Conocimiento en informacion clinica</option>
+            </select>
+            <div class="dropDownSelect2"></div>
+         </div>
+        
+            <span class="label-input100">Seleccione una respuesta</span>
+            <div class="contact100-form-radio m-t-15">
+               <input class="input-radio100" id="radio13" type="checkbox" name="knowclinicalinformation" value="3">
+               <label class="label-radio100" for="radio13">
+               Alto
+               </label>
+            </div>
+            <div class="contact100-form-radio">
+               <input class="input-radio100" id="radio14" type="checkbox" name="knowclinicalinformation" value="2">
+               <label class="label-radio100" for="radio14">
+               Medio
+               </label>
+            </div>
+            <div class="contact100-form-radio">
+               <input class="input-radio100" id="radio15" type="checkbox" name="knowclinicalinformation" value="1">
+               <label class="label-radio100" for="radio15">
+               Bajo
+               </label>
+            </div>
+            <!--===============================================================================================-->
+            <span class="label-input100">De acuerdo a la pregunta cual cree que es su nivel
+            de conocimiento *</span>
+            <div>
+               <select class="js-select2" name="service">
+                  <option>Conocimientos de terminologias en salud </option>
+               </select>
+               <div class="dropDownSelect2"></div>
+            </div>
+            
+               <span class="label-input100">Seleccione una respuesta</span>
+               <div class="contact100-form-radio m-t-15">
+                  <input class="input-radio100" id="radio16" type="checkbox" name="knowterminologieshealth" value="3">
+                  <label class="label-radio100" for="radio16">
+                  Alto
+                  </label>
+               </div>
+               <div class="contact100-form-radio">
+                  <input class="input-radio100" id="radio17" type="checkbox" name="knowterminologieshealth" value="2">
+                  <label class="label-radio100" for="radio17">
+                  Medio
+                  </label>
+               </div>
+
+               <div class="contact100-form-radio">
+                  <input class="input-radio100" id="radio18" type="checkbox" name="knowterminologieshealth" value="1">
+                  <label class="label-radio100" for="radio18">
+                  Bajo
+                  </label>
+			      </div>
+			   
+               <div class="container-contact100-form-btn">
+                  <button class="contact100-form-btn" id="enviar">
+                  <span>
+                  Enviar
+                  <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                  </span>
+                  </button>
+               </div>
+    
+      </div>
+      </div>
+      <!--===============================================================================================-->
+      <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/animsition/js/animsition.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/bootstrap/js/popper.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/select2/select2.min.js"></script>
+      <!--===============================================================================================-->
+       <script>
+         $(".js-select2").each(function () {
+         	$(this).select2({
+         		minimumResultsForSearch: 20,
+         		dropdownParent: $(this).next('.dropDownSelect2')
+         	});
+            
+         	$(".js-select2").each(function () {
+         		$(this).on('select2:close', function (e) {
+         			if ($(this).val() == "Please chooses") {
+         				$('.js-show-service').slideUp();
+         			}
+         			else {
+         				$('.js-show-service').slideUp();
+         				$('.js-show-service').slideDown();
+         			}
+         		});
+         	});
+         })
+      </script>
+      <!--===============================================================================================-->
+      <script src="vendor/daterangepicker/moment.min.js"></script>
+      <script src="vendor/daterangepicker/daterangepicker.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/countdowntime/countdowntime.js"></script>
+      <!--===============================================================================================-->
+      <script src="vendor/noui/nouislider.min.js"></script>
+      <script src="js/app.js"></script>
+      <!--===============================================================================================-->
+     
+   </body>
+</html>
